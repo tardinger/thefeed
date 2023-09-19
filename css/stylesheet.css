@@ -23,6 +23,7 @@ header{
 a{
     text-decoration: none;
     color: darkblue;
+    font-family: 'Allerta Stencil', sans-serif;
 }
 
 
@@ -35,6 +36,7 @@ nav{
 nav h3:hover{
     transform: scale(0.9);
 }
+
 main{
     margin-left: 600px;
     font-family: 'Allerta Stencil', sans-serif;
@@ -50,16 +52,23 @@ section{
     margin-top: 50px;
 }
 
+section video{
+    display: block;
+    margin: auto;
+}
+
+section video:hover{
+    transform: scale(0.9);
+}
+
 section img{
     display: block;
     margin: auto;
 }
 
 section img:hover{
-    box-shadow: 0 0 15;
     transform: scale(0.9);
 }
-
 
 section p{
     text-align: center;
@@ -74,7 +83,7 @@ footer{
 
 #sharkgif{
     text-align: center;
-    margin-top: 25%;
+    margin-top: 200px;
     width: 500px;
     margin: auto;
 }
