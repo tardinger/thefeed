@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Allerta+Stencil&family=Red+Rose&display=swap');
+
+body{
+    background-color: rgb(0, 0, 0);
+    background-image: url("../img/Sky-Stars-Pattern.jpg");
+    background-repeat: none;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    max-width: 1200px;
+    margin: auto;
+}
+
+header{
+    width: 400px;
+    position: fixed;
+    top: 25px; left: 25px;
+    font-family: 'Allerta Stencil', sans-serif;
+    font-size: 30px;
+    color: rgb(251, 251, 251);
+}
+
+a{
+    text-decoration: none;
+}
+
+nav{
+    width: 400px;
+    position: fixed;
+    top: 300px; left: 25px;
+}
+
+main{
+    margin-left: 600px;
+    font-family: 'Allerta Stencil', sans-serif;
+    color: aliceblue;
+    font-size: 15px;
+}
+
+section{
+    border: 20px darkblue;
+    border-style: double;
+    border-radius: 70px;
+    padding: 25px;
+    margin-top: 50px;
+}
+
+section img{
+    display: block;
+    margin: auto;
+}
+
+section img:hover{
+    box-shadow: 0 0 15;
+    transform: scale(0.9);
+}
+
+
+section p{
+    text-align: center;
+    font-family: 'Allerta Stencil', sans-serif;
+}
+
+footer{
+    width: 400px;
+    position: fixed;
+    bottom: 25px; left: 25px;
+}
+
+#sharkgif{
+    text-align: center;
+    margin-top: 25%;
+    width: 500px;
+    margin: auto;
+}
+
+#sharkgif:hover{
+    opacity: 0.5;
+}
