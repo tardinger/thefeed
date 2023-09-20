@@ -31,10 +31,15 @@ nav{
     width: 400px;
     position: fixed;
     top: 300px; left: 25px;
+    font-size: 15px;
+    font-family: 'Allerta Stencil', sans-serif;
 }
 
 nav h3:hover{
     transform: scale(0.9);
+    font-family: 'Allerta Stencil', sans-serif;
+    color: aliceblue;
+    font-size: 15px;
 }
 
 main{
