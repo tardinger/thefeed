@@ -26,15 +26,24 @@ a{
     font-family: 'Allerta Stencil', sans-serif;
 }
 
+.friendstitle{
+    color: lightblue;
+}
 
 nav{
-    width: 400px;
+    width: 300px;
     position: fixed;
     top: 300px; left: 25px;
+    margin-top: 10%;
     font-size: 15px;
     font-family: 'Allerta Stencil', sans-serif;
     text-decoration: none;
     color: darkblue;
+    border: 10px darkblue;
+    border-style: double;
+    border-radius: 70px;
+    padding: 25px;
+    margin-top: 50px;
 }
 
 nav h3:hover{
