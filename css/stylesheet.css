@@ -42,6 +42,7 @@ nav{
     font-size: 15px;
     font-family: 'Allerta Stencil', sans-serif;
     text-decoration: none;
+    
     color: darkblue;
     border: 10px darkblue;
     border-style: double;
@@ -69,7 +70,9 @@ nav{
    display: none;
 }
 
-
+a:visited {
+    color: darkblue;
+}
 
 nav h3:hover{
     transform: scale(0.9);
